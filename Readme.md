@@ -1,3 +1,3 @@
 # Readme
 
-This is a readme fine created in github itself
+This is a readme file created in github itself
