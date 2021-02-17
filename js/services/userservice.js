@@ -37,9 +37,11 @@ class UserService {
   static changePassword() {}
 
   static init() {
-    // create two users
+    // create some users
     UserService.createUser("Linus00", "trash@mail.com", "xxxxx");
     UserService.createUser("Grone", "info@grone.de", "xxxxx");
+    UserService.createUser("Torge", "torge@russia.cia", "xxxxx");
+    UserService.createUser("Michel", "michel.1@web.de", "xxxxx");
     // add them to the user table skeleton
     UserService.displayUserTable();
   }
