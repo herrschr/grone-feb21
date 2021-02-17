@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User List</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/users.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <script src="js/model/user.js"></script>
+    <script src="js/services/userservice.js"></script>
+  </head>
+
+  <body onload="UserService.init()">
+    <h1>Users</h1>
+    <table class="table">
+      <thead id="tuser_head">
+      </thead>
+      <tbody id="tuser_body">
+      </tbody>
+    </table>
+  </body>
+</html>
