@@ -11,3 +11,9 @@ innerhalb der einen Anweisung befindet sich einfach die nächste Schleife.
 Probieren Sie es einfach aus.
 
 3. Das Ergebnis einchecken
+
+# 16.2.
+
+https://github.com/rkaczich/js-kurs4
+
+Aufgabe 1. Refactoring des erstellten codes... Der Quelltext soll so überarbeitet werden, dass es nur noch eine Methode zur Anzeige der Tabelle gibt, also dass header und content innerhalb einer Methode gefüllt werden.
